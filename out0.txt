@@ -5,3 +5,18 @@ This will clear the console output.
 Run the file once while the tasks are short. 
 
 Copy and paste the terminal results (when task_duration is 0) here.
+
+2023-09-04 15:58:19,819 - INFO - Called recreate_database().
+2023-09-04 15:58:19,819 - INFO - Called drop_table().
+2023-09-04 15:58:19,837 - INFO - Table 'pets' dropped successfully.
+2023-09-04 15:58:19,838 - INFO - Called create_table().
+2023-09-04 15:58:19,845 - INFO - Table 'pets' created successfully.
+2023-09-04 15:58:20,237 - INFO - Called process_one().
+2023-09-04 15:58:20,238 - INFO -   Called insert_pet() with process=P1, name=Ace, breed=Dog.
+2023-09-04 15:58:20,301 - INFO - Called process_two().
+2023-09-04 15:58:20,302 - INFO -   Called insert_pet() with process=P2, name=Cooper, breed=Rabbit.
+2023-09-04 15:58:20,316 - INFO - Called process_three().
+2023-09-04 15:58:20,317 - INFO -   Called insert_pet() with process=P3, name=Emma, breed=Rabbit.
+2023-09-04 15:58:21,258 - INFO -   Called insert_pet() with process=P1, name=Buddy, breed=Dog.
+2023-09-04 15:58:23,309 - INFO -   Called insert_pet() with process=P2, name=Dingo, breed=Dog.
+2023-09-04 15:58:25,420 - INFO -   Called insert_pet() with process=P3, name=Felix, breed=Cat.
